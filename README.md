@@ -1,20 +1,51 @@
-# Awesome_Dynamic_SLAM [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome_Lifelong_SLAM [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-The following paper are the papers that focuses on the **SLAM in dynamic Environments** and **Life-long SLAM**. In the dynamic environment, there are two kinds of robust SLAM: First is **detection & removal**. Another is **detection & tracking**. Although the mapping part in dynamic environment is not my focus, but I will also put some articles yet also very interesting.
+My personal list of important content related to Lifelong SLAM and Robotics. Feel free to send me some suggestions: yuewangg@outlook.com
 
-> **Vision** means that the pipeline is built with camera. Others are the same, such as **lidar**, **radar**, **sensor fusion**.
-
+### Table of Contents
+* **[Conferences](#conferences)**<br>
+* **[Journals](#journals)**<br>
+* **[Related survey papers](#related-survey-papers)**<br>
+* **[Related research papers](#related-research-papers)**<br>
+* **[Researcher](#researchers)**<br>
+* **[Laboratories and Research Groups](#laboratories-and-research-groups)**<br>
+* **[Courses](#courses)**<br>
 ------
 
-# Related survey papers:
+## Conferences
+* [ACM/IEEE International Conference on Human Robot Interaction (HRI)](http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1040036)
+* [CISM IFToMM Symposium on Robot Design, Dynamics and Control (RoManSy)](http://www.romansy2016.org/)
+* [IEEE Conference on Decision and Controls (CDC)](http://ieeexplore.ieee.org/servlet/opac?punumber=1000188)
+* [IEEE International Conference on Rehabilitation Robotics (ICORR)](http://www.rehabrobotics.org/)
+* [IEEE International Conference on Robotics and Automation (ICRA)](http://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra)
+* [IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)](http://www.iros.org/)
+* [IEEE-RAS International Conference on Humanoid Robots (Humanoids)](http://ieeexplore.ieee.org/servlet/opac?punumber=1002042)
+* [International Symposium of Robotic Research (ISRR)](http://ifrr.org/isrr.php)
+* [International Symposium of Experimental Robotics (ISER)](http://ifrr.org/iser.php)
+* [Robotica](http://www.ieee-ras.org/conferences-workshops/technically-co-sponsored/robotica)
+* [Robotics: Science and Systems Conference (RSS)](http://www.roboticsconference.org/)
+* [The International Workshop on the Algorithmic Foundations of Robotics (WAFR)](http://www.wafr.org/) 
+
+
+## Journals
+* [Robotics and Autonomous Systems](https://www.journals.elsevier.com/robotics-and-autonomous-systems) | **Elsevier - Impact factor: 2.259**
+* [Journal of Intelligent & Robotic Systems (JINT)](https://www.springer.com/journal/10846) | **Springer - Impact factor: 2.825**
+* [Transactions on Robotics (T-RO)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8860) | **IEEE - Impact factor: 6.123**
+* [International Journal of Robotics Research (IJRR)](https://journals.sagepub.com/home/ijr) | **SAGE - Impact factor: 4.703**
+* [Autonomous Robots](https://www.springer.com/journal/10514) | **Springer - Impact factor: 3.602**
+* [Robotics and Computer-Integrated Manufacturing](https://www.journals.elsevier.com/robotics-and-computer-integrated-manufacturing) | **Elsevier - Impact factor: 5.057**
+* [Journal of Field Robotics (JFR)](https://onlinelibrary.wiley.com/journal/15564967) | **Wiley - Impact factor: 3.581**
+* [Robotics & Automation Magazine (RAM)](https://www.ieee-ras.org/publications/ram) | **IEEE - Impact factor: 4.250**
+* [Robotica](https://www.cambridge.org/core/journals/robotica) | **Cambridge Core - Impact factor: 1.509**
+* [Robotics and Automation Letters (RA-L)](https://www.ieee-ras.org/publications/ra-l) | **IEEE - Impact factor: 3.6**
+
+## Related survey papers:
 
 - [**A survey: which features are required for dynamic visual simultaneous localization and mapping?**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8285453/pdf/42492_2021_Article_86.pdf). Zewen Xu,CAS. 2021
 
 - [**State of the Art in Real-time Registration of RGB-D Images**](https://cg.cs.uni-bonn.de/aigaion2root/attachments/StateoftheArtinReal-timeRegistrationofRGB-DImages.pdf). Stotko, Patrick. University of Bonn. 2016
-- [**Visual SLAM and Structure from Motion in Dynamic Environments: A Survey**](https://dl.acm.org/doi/pdf/10.1145/3177853).  University of Oxford. 2018
-- [**State of the Art on 3D Reconstruction with RGB-D Cameras**](https://www.cg.informatik.uni-siegen.de/data/Publications/2018/star1009-main.pdf). Michael Zollhöfer. Stanford University. 2018
 
-# Dynamic Object Detection and *Removal*
+## Related research papers
 
 - (IROS 2022)[CFP-SLAM: A Real-time Visual SLAM Based on Coarse-to-Fine Probability in Dynamic Environments](https://arxiv.org/pdf/2202.01938v2.pdf)
 
@@ -177,8 +208,6 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 - (IROS 2022)Dynamic-VINS：RGB-D Inertial Odometry for a Resource-restricted Robot in Dynamic Environments. 
   - 分割+运动点置信度，[code](https://github.com/HITSZ-NRSL/Dynamic-VINS),[video](https://www.bilibili.com/video/BV1bF411t7mx)
 
-# Dynamic Object Detection and ***Tracking***
-
 - [DyOb-SLAM : Dynamic Object Tracking SLAM System (2022)](https://arxiv.org/pdf/2211.01941.pdf)
   - VDO-SLAM+DynaSLAM的结合。。。
 
@@ -302,35 +331,119 @@ The following paper are the papers that focuses on the **SLAM in dynamic Environ
 - (IROS 2022)[TwistSLAM: Constrained SLAM in Dynamic Environment](https://arxiv.org/pdf/2202.12384),
   - S3LAM的后续，使用全景分割作为检测的前端
 
-# Other Application
-
-- [3D VSG: Long-term Semantic Scene Change Prediction through 3D Variable  Scene Graphs (2022)](https://arxiv.org/pdf/2209.07896.pdf) 
-  
-  - 语义场景的变化检测
-  - code：https://github.com/ethz-asl/3d_vsg
-
-- **CubeSLAM: Monocular 3D Object SLAM**, IEEE Transactions on Robotics 2019, S. Yang, S. Scherer [**PDF**](https://arxiv.org/abs/1806.00557)
-  - [code](https://github.com/shichaoy/cube_slam). [video](https://youtu.be/QnVlexXi9_c). Vision
-- Salas-Moreno Renato F., et al. “**[SLAM++: Simultaneous Localisation and Mapping at the Level of Objects.](https://doi.org/10/ggmwnd)**” (CVPR 2013)
-  - code, [video](https://youtu.be/tmrAh1CqCRo),
-- Nicholson Lachlan, et al. “**[QuadricSLAM: Dual Quadrics From Object Detections as Landmarks in Object-Oriented SLAM](https://arxiv.org/abs/1804.04011)**.” (RAL-2018)
-  - [**Project page**](https://nikosuenderhauf.github.io/semanticslam.ai/quadricslam.html), [code](https://github.com/tiev-tongji/quadric_slam-deprecated).
-- Wu Yanmin, et al. “[**EAO-SLAM: Monocular Semi-Dense Object SLAM Based on Ensemble Data Association**](https://arxiv.org/abs/2004.12730).” *2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, Oct. 2020, pp. 4966–73. *arXiv.org*, https://doi.org/10.1109/IROS45743.2020.9341757.
-  - [Project page](https://yanmin-wu.github.io/project/eaoslam/). [code](https://github.com/yanmin-wu/EAO-SLAM).  
-- H. Osman, N. Darwish, and A. Bayoumi, “LoopNet: Where to Focus Detecting Loop Closures in Dynamic Scenes,” *IEEE Robotics and Automation Letters*, pp. 1–1, 2022, doi: [10.1109/LRA.2022.3142901](https://doi.org/10.1109/LRA.2022.3142901).
-  - 动态环境中的回环检测，网络。code，video
-
-- M. N. Finean, L. Petrović, W. Merkt, I. Marković, and I. Havoutis, “**[Motion Planning in Dynamic Environments Using Context-Aware Human Trajectory Prediction](http://arxiv.org/abs/2201.05058)**,” *arXiv:2201.05058 [cs]*, Jan. 2022.
-  - 含有人的动态环境的导航，**[code](https://github.com/ori-drs/integrated-dynamic-motion-planning-framework)**，**[video](https://www.youtube.com/watch?v=gdC3mpZNjG4&t=5s)**。类似避障和规划类的
-
-- (IROS 2022)[Extrinsic Camera Calibration from A Moving Person](https://vision.ist.i.kyoto-u.ac.jp/pubs/SLee_RAL22.pdf)
-
-- (IROS 2022)[ACEFusion : Accelerated and Energy-Efficient Semantic 3D Reconstruction of Dynamic Scenes](https://pure.manchester.ac.uk/ws/portalfiles/portal/228491926/ACEFusion_IROS2022.pdf)
-
-- (IROS 2022)[Efficient 2D LIDAR-Based Map Updating For Long-Term Operations in Dynamic Environments](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9982047)
-
-- (IROS 2022)[Detecting Invalid Map Merges in Lifelong SLAM](https://arxiv.org/pdf/2211.03423v1.pdf)
-- (IROS 2022)[Probabilistic Object Maps for Long-Term Robot Localization](https://arxiv.org/pdf/2110.00128v4.pdf)
-- (IROS 2022)[ROLL: Long-Term Robust LiDAR-based Localization With Temporary Mapping in Changing Environments](https://arxiv.org/pdf/2203.03923v1.pdf)
-# Researchers
+## Researchers
 TBD
+
+## Laboratories and Research Groups
+* [Autonomous Vision Group (AVG)](http://www.cvlibs.net/index.php) **| University of Tübingen - Prof. Dr. Andreas Geiger**
+* [Robot Vision Group](http://wp.doc.ic.ac.uk/robotvision/) **| Imperial College London - Prof. Andrew Davison**
+* [Computer Vision Group](https://www.vision.uji.es/courses/courses.php3) **| University Jaume I**
+* [Robotics and Perception Group](http://rpg.ifi.uzh.ch/) **| University of Zurich - Prof. Davide Scaramuzza**
+* [Laboratrio de Robótica Móvel](http://lrm.icmc.usp.br/web/index.php?n=Port.Home) **| ICMC/USP São Carlos - Prof. Fernando Osório**
+* [StachnissLab](https://www.ipb.uni-bonn.de/) **| University of Bonn - Prof. Dr. Cyrill Stachniss**
+* [Autonomous Intelligent Systems](http://ais.informatik.uni-freiburg.de/index_en.php) **| University of Freiburg - Prof. Dr. Wolfram Burgard**
+* [Multi-Robt Systems Group](http://mrs.felk.cvut.cz/) **| University in Prague - Prof. Dr. Martin Saska**
+* [Robotics and Intelligent Systems (ROBIN)](https://www.mn.uio.no/ifi/english/research/groups/robin/) **| University of Oslo - Prof. Dr. Jim Tørresen**
+* [Machine Perception and Intelligent Robotics (MAPIR)](http://mapir.isa.uma.es/mapirwebsite/) **| University of Málaga - Prof. Dr. Javier Gonzalez Jimenez**
+* [Robotics, Perception and Real Time Group](http://robots.unizar.es/) **| Universidad de Zaragoza - Juan D. Tardós and others**
+* [Team CoSTAR](https://costar.jpl.nasa.gov/) **| A collaboration between NASA’s JPL, MIT, Caltech, KAIST, LTU, and several industry partners** 
+* [Autonomous Navigation and Perception Lab (ANPL)](https://vindelman.net.technion.ac.il/) **| Technion-Israel Institute of Technology - Asst. Prof. Vadim Indelman**
+* [Institute for Robotics and Intelligent Machines (IRIM)](http://www.robotics.gatech.edu/) **| Georgia Institute of Technology**
+* [Vijay Kumar Lab](https://www.kumarrobotics.org/) **| University of Pennsylvania - Prof. Dr. Vijay Kumar**
+* [Phi Robotics](https://www.inf.ufrgs.br/phi-group/site/) **| Federal University of Rio Grande do Sul - Prof. Dr. Edson Prestes**
+* [Computer Science and Artificial Intelligence Laboratory (CSAIL)](https://www.csail.mit.edu/) **| MIT’s research lab**
+* [Goal-Oriented Long-Lived Systems (GOALS)](https://ori.ox.ac.uk/labs/goals/) **| Oxford Robotics Institute - Nick Hawes**
+* [Skoltech Mobile Robotics](https://sites.skoltech.ru/mobilerobotics/) **| Skolkovo Institute of Science and Technology - Gonzalo Ferrer**
+* [Michael R. Bock](https://michaelrbock.com/) **| Software engineer**
+* [Compuver Vision and Intelligent Systems Laboratory](https://www.cs.ryerson.ca/~wangcs/cvis.html) **| Ryerson University - 	
+Guanghui (Richard) Wang**
+
+
+## Courses
+* [Mobile Sensing and Robotics](https://www.youtube.com/playlist?list=PLgnQpQtFTOGQJXx-x0t23RmRbjp_yMb4v) **| YouTube - Cyrill Stachniss**
+* [Mobile Sensing and Robotics - 2 ](https://www.youtube.com/playlist?list=PLgnQpQtFTOGQh_J16IMwDlji18SWQ2PZ6) **| YouTube - Cyrill Stachniss**
+* [Photogrametry](https://www.youtube.com/playlist?list=PLgnQpQtFTOGRsi5vzy9PiQpNWHjq-bKN1) **| YouTube - Cyrill Stachniss**
+* [SLAM](https://www.youtube.com/playlist?list=PLgnQpQtFTOGQrZ4O5QzbIHgl3b1JHimN_) **| YouTube - Cyrill Stachniss**
+* [Modern C++](https://www.youtube.com/playlist?list=PLgnQpQtFTOGR50iIOtO36nK6aNPtVq98C) **| YouTube - Cyrill Stachniss**
+* [Become a Robotics Software Engineer](https://www.youtube.com/playlist?list=PLAwxTw4SYaPl_DVydJhS7TzeavJRTdIKV) **| YouTube -Udacity**
+* [Different playlists about ROS](https://www.youtube.com/c/TheConstruct/playlists) **| YouTube - The Construct**
+* [A platform to learn/teach robotics from zero](https://www.theconstructsim.com/) **| The Construct**
+* [Autonomous Systems](https://www.udacity.com/school-of-autonomous-systems) **| Udacity**
+* [Artificial Intelligence for Robotics](https://www.udacity.com/course/artificial-intelligence-for-robotics--cs373) **| Udacity - Prof. Dr. Sebastian Thrun**
+* [C++ Essential Training](https://cpp.bw.org/) **| Bill Weinman**
+* [Slides of Computer Vision](http://www.cs.cornell.edu/courses/cs4670/2013fa/lectures/lectures.html) **| Lectures from Cornell - 2013**
+* [Computer Vision: Foundations and Applications](http://vision.stanford.edu/teaching/cs131_fall1415/index.html) **| Stanford University - Prof. Fei-Fei Li**
+* [Interval Analysis](https://www.ensta-bretagne.fr/jaulin/iamooc.html) **| IAMOOC - Prof. Luc Jaulin**
+* [Robot Mapping](http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/) **| University of Freiburg - Prof. Cyrill Stachniss**
+* [JAI: Robótica e Simulação com o V-REP](https://www.sites.google.com/site/vrepjai/home) **| CSBC - Julho 2015**
+* [Digital Image Processing](https://sisu.ut.ee/imageprocessing/avaleht) **| University of Tartu - Prof. Dr. Gholamreza Anbarjafari**
+* [Tutorial on Visual Odometry](https://sites.google.com/site/scarabotix/tutorial-on-visual-odometry) **| University of Zurich - Prof. Davide Scaramuzza**
+* [Visual SLAM Tutorial](http://www.cs.cmu.edu/~kaess/vslam_cvpr14/) **| Frank Dellaert and Michael Kaess**
+* [Visual Odometry from scratch - A tutorial for beginners](https://avisingh599.github.io/vision/visual-odometry-full/) **| Avi Singh's blog**
+* [Aerial Robot Courses](http://www.kostasalexis.com/courses.html) **| University of Nevada - Dr. Kostas Alexis**
+* [Stereo Vision Tutorial](http://mccormickml.com/2014/01/10/stereo-vision-tutorial-part-i/) **| Chris McCormick**
+* [Different ROS courses](https://www.udemy.com/courses/search/?q=ROS) **| Udemy**
+* [Introduction to Mobile Robotics](http://ais.informatik.uni-freiburg.de/teaching/ss21/robotics/) **| University of Freiburg - Prof. Dr. Wolfram Burgard**
+* [GaiTech EDU](https://edu.gaitech.hk/) **| Educational website on Robot Operating System (ROS)**
+* [Robocademy](https://robocademy.com/) **| ROS Course from Lentin Joseph**
+* [Hello (Real) World with ROS](https://www.edx.org/course/hello-real-world-with-ros-robot-operating-system) **| Delft University of Technology - edX**
+* [Self-Driving Cars with ROS and Autoware](https://www.autoware.org/awf-course) **| The Autoware Foundation**
+* [Programming for Robotics - ROS](https://rsl.ethz.ch/education-students/lectures/ros.html) **|ETH Zurich - Robotics System Lab**
+* [CVML knowledge self-assessment](https://aiia.csd.auth.gr/cvml-knowledge-self-assessment/) **| Aristotle University of Thessaloniki - Prof. I. Pitas**
+* [Think Autonomous](https://courses.thinkautonomous.ai/) **| Jeremy Cohen**
+* [PyImageSearch](https://www.pyimagesearch.com/) **| Adrian Rosebrock**
+* [DuckieTown](https://www.duckietown.org/) **| Learning Autonomy**
+* [Machine Learning](https://www.coursera.org/learn/machine-learning?__s=4l8lmj4sp162iwy3z1p8) **| Stanford - Andrew Ng**
+* [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning?__s=4l8lmj4sp162iwy3z1p8) **| Stanford - Andrew Ng**
+* [OpenCV: C++ and Python](https://github.com/spmallick/learnopencv) **| Satya Mallick**
+* [Awesome Self-Driving](https://github.com/Sid1057/awesome-self-driving) **| Ivan Deylid**
+* [Principles of Computer Vision](https://fpcv.cs.columbia.edu/) **| Shree K. Nayar**
+* [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision) **| Jia-Bin Huang**
+* [Introduction to ROS: The Robot Operating System](https://tiziano-school.thinkific.com/courses/introduction-to-ros-the-robot-operating-system) **| Tiziano's school**
+* [ROS Tutorials](https://erlerobotics.gitbooks.io/erle-robotics-erle-brain-a-linux-brain-for-drones/content/en/ros/rostutorials.html) **| Erle Robotics**
+* [ROS Industrial Training](https://industrial-training-master.readthedocs.io/en/melodic/index.html) **| Industrial Training Exercises**
+* [ROS C++ Hello World](https://jbohren.com/articles/roscpp-hello-world) **| Jonathan Bohren**
+* [ROS2 C++ Hello World](https://jbohren.com/articles/rclcpp-hello-world) **| Jonathan Bohren**
+* [LearnOpencv](https://learnopencv.com/) **| Satya Mallick**
+* [Programming for Robotics](https://robotics.umich.edu/academic-program/courses/rob599-f19/) **| Acshi Haggenmiller (acshikh)**
+* [Mathematics for Robotics](https://github.com/michiganrobotics/rob501) **| University of Michigan**
+* [Introduction to the A* Algorithm](https://www.redblobgames.com/pathfinding/a-star/introduction.html) **| Red Blob Games**
+* [Computer Science courses with video lectures](https://github.com/Developer-Y/cs-video-courses/blob/master/README.md) **| Developer-Y**
+* [Common Path Planning Algorithms](https://github.com/KamalanathanN/PathPlanning) **| KamalanathanN**
+* [PyVisualOdometry](https://github.com/polygon-software/python-visual-odometry) **| Polygon-Software**
+* [KITTI Odometry in Python and OpenCV](https://github.com/FoamoftheSea/KITTI_visual_odometry) **| Nate Cibik**
+* [Awesome 3D Reconstruction List](https://github.com/openMVG/awesome_3DReconstruction_list#mesh-storage-processing) **| OpenMVG**
+* [ROS Autonomous Driving and Path Planning SLAM with TurtleBot3](https://github.com/noshluk2/ROS-Autonomous-Driving-and-Path-Planning-SLAM-with-TurtleBot) **| Muhammad Luqman**
+* [ROS2 Ultimate learners Repository with Supporting Documentation](https://github.com/noshluk2/ROS2-Ultimate-learners-Repository) **| Muhammad Luqman**
+* [ROS2 C++ learning](https://github.com/dottantgal/ROS2_learning) **| Antonio Mauro Galiano**
+* [F1TENTH](https://f1tenth.readthedocs.io/en/foxy_test/index.html) **| F1TENTH Autonomous Racing Community**
+* [ROS Industrial Training](https://github.com/ros-industrial/industrial_training) **| ROS Industrial**
+* [ROS Book Sample Code](https://github.com/gbiggs/ros_book_sample_code) **| Programming Robots with ROS**
+* [CPP Best Practices](https://github.com/cpp-best-practices/cppbestpractices) **| CPP Best Practices**
+* [C++ Cheatsheet](https://github.com/mortennobel/cpp-cheatsheet) **| Modern C++ Cheatsheet**
+* [Computer Vision](https://www.eecs.yorku.ca/~kosta/Courses/EECS4422/) **| Prof. Kosta Derpanis**
+* [Machine Learning Course Notes](https://github.com/dair-ai/ML-Course-Notes) **| DAIR.AI**
+* [Data Structure \& Algorithms 101](https://github.com/girliemac/a-picture-is-worth-a-1000-words) **| Girliemac**
+* [Trending in 3D Vision](https://github.com/dragonlong/Trending-in-3D-Vision) **| Dragonlong**
+* [Master Git list](https://twitter.com/NikkiSiapno/status/1559472755443220481) **| Master Git & GitHub**
+* [Algorithms / Data Structures](https://github.com/girliemac/a-picture-is-worth-a-1000-words/tree/main/algorithms) **| A Picture is worth a 1000 words**
+* [Udacity's autonomous car](https://github.com/udacity/self-driving-car) **| The Udacity open source self-driving car project**
+* [Muhammad Luqman](https://www.youtube.com/channel/UC-QzGbqufzwncwPQlOJfUXw) **| Robotics Tutorials on YouTube by Muhammad**
+* [Hummingbird](https://www.youtube.com/channel/UCPN4BAonS7QhKI-tODaA9cA/videos) **| Life in Robotics and Technology**
+* [ROS Tutorials by CLEARPATH](http://www.clearpathrobotics.com/assets/guides/melodic/ros/) **| Step-by-step tutorials on ROS by Clearpath**
+* [Robótica Educacional](https://www.donkeycar.com/) **| Robótica Educacional Paraná**
+* [Roboflow Notebooks](https://github.com/roboflow/notebooks) **| Jupyter Notebooks with Computer Vision tutorials**
+* [Autonomous Driving Lecture](https://github.com/Mayakshanesht/Autonomous_Driving_Lecture_resources) **| Autonomous driving lecture resources by Mayakshanesht**
+* [C++ Best Practices](https://github.com/cpp-best-practices/cppbestpractices) **| Collaborative Collection of C++ Best Practices**
+* [C++ Optimizations Diary](https://github.com/facontidavide/CPP_Optimizations_Diary) | Tips and tricks to optimize your C++ code
+* [Visual SLAM Roadmap](https://github.com/changh95/visual-slam-roadmap) | Roadmap to becoming a Visual-SLAM developer in 2022 by @changh95
+* [Official Repository RVSS](https://github.com/Tobias-Fischer/RVSS) | Colab notebooks for the Robotic Vision Summer School by @Tobias-Fischer
+* [KF in Python](https://github.com/tbmoon/kalman_filter) | Kalman Filter in Python
+* [Self Driving Cars](https://github.com/qiaoxu123/Self-Driving-Cars) | Coursera Open Courses from University of Toronto
+* [Coding Notes and Tutorials](https://github.com/methylDragon/coding-notes) | A compilation of tutorials and references for different coding languages and frameworks
+* [Introduction to Robotics](https://irom-lab.princeton.edu/intro-to-robotics/) | Princeton University
+* [Michigan Robotics](https://robotics.umich.edu/academics/courses/online-courses/) | Michigan Robotics courses
+* [Sensor Fusion Tutorial](https://github.com/methylDragon/ros-sensor-fusion-tutorial/blob/master/01%20-%20ROS%20and%20Sensor%20Fusion%20Tutorial.md) | A tutorial for sensor fusion using the robot_localization package
+* [Coding Notes](https://github.com/methylDragon/coding-notes) | Coding notes in many programming languages by methylDragon
+* [Rosetta Launch](https://github.com/MetroRobots/rosetta_launch) | A guide to understanding launch files in ROS 1 and ROS 2
+* [Google Interview Preparation](https://github.com/mgechev/google-interview-preparation-problems) | Collection of problems and solutions of leetcode, geeksforgeeks challenges by mgechev
