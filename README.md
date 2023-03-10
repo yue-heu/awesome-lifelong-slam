@@ -335,28 +335,51 @@ My personal list of important content related to Lifelong SLAM and Robotics. Fee
 TBD
 
 ## Laboratories and Research Groups
-* [Autonomous Vision Group (AVG)](http://www.cvlibs.net/index.php) **| University of Tübingen - Prof. Dr. Andreas Geiger**
-* [Robot Vision Group](http://wp.doc.ic.ac.uk/robotvision/) **| Imperial College London - Prof. Andrew Davison**
+
+### Global
+* [AirLab](https://theairlab.org/) **| Carnegie Mellon University - Sebastian Scherer**
+* [Autonomous Vision Group (AVG)](http://www.cvlibs.net/index.php) **| University of Tübingen - Andreas Geiger**
+* [Robot Vision Group](http://wp.doc.ic.ac.uk/robotvision/) **| Imperial College London - Andrew Davison**
 * [Computer Vision Group](https://www.vision.uji.es/courses/courses.php3) **| University Jaume I**
-* [Robotics and Perception Group](http://rpg.ifi.uzh.ch/) **| University of Zurich - Prof. Davide Scaramuzza**
-* [Laboratrio de Robótica Móvel](http://lrm.icmc.usp.br/web/index.php?n=Port.Home) **| ICMC/USP São Carlos - Prof. Fernando Osório**
-* [StachnissLab](https://www.ipb.uni-bonn.de/) **| University of Bonn - Prof. Dr. Cyrill Stachniss**
-* [Autonomous Intelligent Systems](http://ais.informatik.uni-freiburg.de/index_en.php) **| University of Freiburg - Prof. Dr. Wolfram Burgard**
-* [Multi-Robt Systems Group](http://mrs.felk.cvut.cz/) **| University in Prague - Prof. Dr. Martin Saska**
-* [Robotics and Intelligent Systems (ROBIN)](https://www.mn.uio.no/ifi/english/research/groups/robin/) **| University of Oslo - Prof. Dr. Jim Tørresen**
-* [Machine Perception and Intelligent Robotics (MAPIR)](http://mapir.isa.uma.es/mapirwebsite/) **| University of Málaga - Prof. Dr. Javier Gonzalez Jimenez**
-* [Robotics, Perception and Real Time Group](http://robots.unizar.es/) **| Universidad de Zaragoza - Juan D. Tardós and others**
+* [Robotics and Perception Group](http://rpg.ifi.uzh.ch/) **| University of Zurich - Davide Scaramuzza** [GitHub Link](https://github.com/uzh-rpg)
+* [Laboratrio de Robótica Móvel](http://lrm.icmc.usp.br/web/index.php?n=Port.Home) **| ICMC/USP São Carlos - Fernando Osório**
+* [StachnissLab](https://www.ipb.uni-bonn.de/) **| University of Bonn - Cyrill Stachniss** [GitHub Link](https://github.com/PRBonn)
+* [Autonomous Intelligent Systems](http://ais.informatik.uni-freiburg.de/index_en.php) **| University of Freiburg - Wolfram Burgard**
+* [Multi-Robt Systems Group](http://mrs.felk.cvut.cz/) **| University in Prague - Martin Saska**
+* [Robotics and Intelligent Systems (ROBIN)](https://www.mn.uio.no/ifi/english/research/groups/robin/) **| University of Oslo - Jim Tørresen**
+* [Machine Perception and Intelligent Robotics (MAPIR)](http://mapir.isa.uma.es/mapirwebsite/) **| University of Málaga - Javier Gonzalez Jimenez**
+* [Robotics, Perception and Real Time Group](http://robots.unizar.es/) **| Universidad de Zaragoza - Juan D. Tardós and others** [GitHub Link](https://github.com/UZ-SLAMLab)
 * [Team CoSTAR](https://costar.jpl.nasa.gov/) **| A collaboration between NASA’s JPL, MIT, Caltech, KAIST, LTU, and several industry partners** 
-* [Autonomous Navigation and Perception Lab (ANPL)](https://vindelman.net.technion.ac.il/) **| Technion-Israel Institute of Technology - Asst. Prof. Vadim Indelman**
+* [Autonomous Navigation and Perception Lab (ANPL)](https://vindelman.net.technion.ac.il/) **| Technion-Israel Institute of Technology - Vadim Indelman**
 * [Institute for Robotics and Intelligent Machines (IRIM)](http://www.robotics.gatech.edu/) **| Georgia Institute of Technology**
-* [Vijay Kumar Lab](https://www.kumarrobotics.org/) **| University of Pennsylvania - Prof. Dr. Vijay Kumar**
-* [Phi Robotics](https://www.inf.ufrgs.br/phi-group/site/) **| Federal University of Rio Grande do Sul - Prof. Dr. Edson Prestes**
+* [Vijay Kumar Lab](https://www.kumarrobotics.org/) **| University of Pennsylvania - Vijay Kumar**
+* [Phi Robotics](https://www.inf.ufrgs.br/phi-group/site/) **| Federal University of Rio Grande do Sul - Edson Prestes**
 * [Computer Science and Artificial Intelligence Laboratory (CSAIL)](https://www.csail.mit.edu/) **| MIT’s research lab**
 * [Goal-Oriented Long-Lived Systems (GOALS)](https://ori.ox.ac.uk/labs/goals/) **| Oxford Robotics Institute - Nick Hawes**
 * [Skoltech Mobile Robotics](https://sites.skoltech.ru/mobilerobotics/) **| Skolkovo Institute of Science and Technology - Gonzalo Ferrer**
-* [Michael R. Bock](https://michaelrbock.com/) **| Software engineer**
-* [Compuver Vision and Intelligent Systems Laboratory](https://www.cs.ryerson.ca/~wangcs/cvis.html) **| Ryerson University - 	
-Guanghui (Richard) Wang**
+* [Compuver Vision and Intelligent Systems Laboratory](https://www.cs.ryerson.ca/~wangcs/cvis.html) **| Ryerson University - Guanghui (Richard) Wang**
+* [UTS Robotics Institute](https://www.uts.edu.au/research/robotics-institute/) **| University of Technology Sydney - Sarath Kodagoda**
+* [Lab for Autonomous Robotics Research](https://larr.snu.ac.kr/) **| Seoul National University - H. Jin Kim**  [GitHub Link](https://github.com/snu-larr)
+* [ASRL - Autonomous Space Robotics Lab](http://asrl.utias.utoronto.ca/) **| University of Toronto - Tim Barfoot** [GitHub Link](https://github.com/utiasASRL)
+* [Urban Robotics Lab](https://urobot.kaist.ac.kr/) **| KAIST (Korea Advanced Institute of Science and Technology) - Hyun MYUNG** [GitHub Link](https://github.com/url-kaist)
+* [ETHZ V4RL](http://www.v4rl.ethz.ch/) **| ETH Zurich - Chli, Margarita** [GitHub Link](https://github.com/VIS4ROB-lab)
+* [Dynamic Vision and Learning Group](https://dvl.in.tum.de) **| Technische Universität München - Laura Leal-Taixé** [GitHub Link](https://github.com/dvl-tum)
+* [Computer Vision and Geometry Lab](http://cvg.ethz.ch) **| ETH Zurich - Marc Pollefeys** [GitHub Link](https://github.com/cvg)
+* [MIST Laboratory](https://mistlab.ca/) **| University of Montreal - Giovanni Beltrame** [GitHub Link](https://github.com/MISTLab)
+* [SPARK (Sensing, Perception, and Robot Kinetics) Lab](http://web.mit.edu/sparklab/) **| Massachusetts Institute of Technology - Luca Carlone** [GitHub Link](https://github.com/MIT-SPARK)
+* [Stanford Vision and Learning Lab](https://svl.stanford.edu/) **| Stanford University - Fei-Fei Li** [GitHub Link](https://github.com/StanfordVL)
+* [TUM Computer Vision Group](https://cvg.cit.tum.de/) **| Technische Universität München - Daniel Cremers** [GitHub Link](https://github.com/tum-vision)
+* [Spatial AI & Robotics Lab](https://sairlab.org/) **| State University of New York at Buffalo - Chen Wang** [GitHub Link](https://github.com/sair-lab)
+* [Robot Perception Lab](http://rpl.ri.cmu.edu/) **| Carnegie Mellon University - Michael Kaess** [GitHub Link]()
+* [Robotics, Perception and Learning Lab](https://www.kth.se/is/rpl) **| KTH Royal Institute of Technology - Patric Jensfelt** [GitHub Link]()
+* [Smart Robotics Lab](https://srl.cit.tum.de/) **| Technische Universität München - Stefan Leutenegger** 
+
+### Chinese
+* [ZJU3DV Lab of CAD&CG](http://www.cad.zju.edu.cn/index.html) **| Zhejiang University - 周晓巍** [GitHub Link](https://github.com/zju3dv)
+* [Mechatronics and Robotic Systems (MaRS) Laboratory](https://mars.hku.hk/) **| The University of Hong Kong - Fu Zhang** [GitHub Link](https://github.com/hku-mars)
+* [Integrated and Intelligent Navigation Group](http://www.i2nav.cn/) **| Wuhan University - 牛小骥** [GitHub Link](https://github.com/i2Nav-WHU)
+* [MARS Lab](http://group.iiis.tsinghua.edu.cn/~marslab/#/) **| Tsinghua University - 赵行** [GitHub Link](https://github.com/tsinghua-mars-lab)
+* [HKUST Aerial Robotics Group](https://uav.hkust.edu.hk/) **| the Hong Kong University of Science and Technology - Shaojie Shen (沈劭劼)** [GitHub Link](https://github.com/HKUST-Aerial-Robotics)
 
 
 ## Courses
