@@ -339,8 +339,7 @@ TBD
 ### Global
 * [AirLab](https://theairlab.org/) **| Carnegie Mellon University - Sebastian Scherer**
 * [Autonomous Vision Group (AVG)](http://www.cvlibs.net/index.php) **| University of Tübingen - Andreas Geiger**
-* [Robot Vision Group](http://wp.doc.ic.ac.uk/robotvision/) **| Imperial College London - Andrew Davison**
-* [Computer Vision Group](https://www.vision.uji.es/courses/courses.php3) **| University Jaume I**
+* [ICL Dyson Robotics Lab](http://wp.doc.ic.ac.uk/dyson-robotics-lab/) **| Imperial College London - Andrew Davison**
 * [Robotics and Perception Group](http://rpg.ifi.uzh.ch/) **| University of Zurich - Davide Scaramuzza** [GitHub Link](https://github.com/uzh-rpg)
 * [Laboratrio de Robótica Móvel](http://lrm.icmc.usp.br/web/index.php?n=Port.Home) **| ICMC/USP São Carlos - Fernando Osório**
 * [StachnissLab](https://www.ipb.uni-bonn.de/) **| University of Bonn - Cyrill Stachniss** [GitHub Link](https://github.com/PRBonn)
@@ -373,6 +372,9 @@ TBD
 * [Robot Perception Lab](http://rpl.ri.cmu.edu/) **| Carnegie Mellon University - Michael Kaess** [GitHub Link]()
 * [Robotics, Perception and Learning Lab](https://www.kth.se/is/rpl) **| KTH Royal Institute of Technology - Patric Jensfelt** [GitHub Link]()
 * [Smart Robotics Lab](https://srl.cit.tum.de/) **| Technische Universität München - Stefan Leutenegger** 
+* [UCLA VISION LAB](http://vision.ucla.edu/) **| UCLA - Stefano Soatto** [GitHub Link](https://github.com/ucla-vision)
+* [Multiple Autonomous Robotic Systems (MARS) Laboratory](http://mars.cs.umn.edu/) **| University of Minnesota - Stergios Roumeliotis**
+* [Active Vision Laboratory](https://www.robots.ox.ac.uk/ActiveVision/) **| University of Oxford - Victor Prisacariu**
 
 ### Chinese
 * [ZJU3DV Lab of CAD&CG](http://www.cad.zju.edu.cn/index.html) **| Zhejiang University - 周晓巍** [GitHub Link](https://github.com/zju3dv)
@@ -380,6 +382,7 @@ TBD
 * [Integrated and Intelligent Navigation Group](http://www.i2nav.cn/) **| Wuhan University - 牛小骥** [GitHub Link](https://github.com/i2Nav-WHU)
 * [MARS Lab](http://group.iiis.tsinghua.edu.cn/~marslab/#/) **| Tsinghua University - 赵行** [GitHub Link](https://github.com/tsinghua-mars-lab)
 * [HKUST Aerial Robotics Group](https://uav.hkust.edu.hk/) **| the Hong Kong University of Science and Technology - Shaojie Shen (沈劭劼)** [GitHub Link](https://github.com/HKUST-Aerial-Robotics)
+* [RAPID Laboratory](http://lab.sysu-robotics.com/index.html) **| Sun Yat-sen University - 成慧** [GitHub Link](https://github.com/SYSU-RoboticsLab)
 
 
 ## Courses
