@@ -157,6 +157,7 @@ My personal list of important content related to Lifelong SLAM and Robotics. Fee
 * [UCLA VISION LAB](http://vision.ucla.edu/) **| UCLA - Stefano Soatto** [GitHub Link](https://github.com/ucla-vision)
 * [Multiple Autonomous Robotic Systems (MARS) Laboratory](http://mars.cs.umn.edu/) **| University of Minnesota - Stergios Roumeliotis**
 * [Active Vision Laboratory](https://www.robots.ox.ac.uk/ActiveVision/) **| University of Oxford - Victor Prisacariu**
+* [Autonomous Systems Lab (ASL)](https://asl.ethz.ch/) **| ETH Zurich - Roland Siegwart** [GitHub Link](https://github.com/ethz-asl)
 
 ### Chinese
 * [ZJU3DV Lab of CAD&CG](http://www.cad.zju.edu.cn/index.html) **| Zhejiang University - 周晓巍** [GitHub Link](https://github.com/zju3dv)
