@@ -158,6 +158,8 @@ My personal list of important content related to Lifelong SLAM and Robotics. Fee
 * [Multiple Autonomous Robotic Systems (MARS) Laboratory](http://mars.cs.umn.edu/) **| University of Minnesota - Stergios Roumeliotis**
 * [Active Vision Laboratory](https://www.robots.ox.ac.uk/ActiveVision/) **| University of Oxford - Victor Prisacariu**
 * [Autonomous Systems Lab (ASL)](https://asl.ethz.ch/) **| ETH Zurich - Roland Siegwart** [GitHub Link](https://github.com/ethz-asl)
+* [NTNU Autonomous Robots Lab](https://www.autonomousrobotslab.com/) **| Norwegian University of Science and Technology - Kostas Alexis** [GitHub Link](https://github.com/ntnu-arl)
+ 
 
 ### Chinese
 * [ZJU3DV Lab of CAD&CG](http://www.cad.zju.edu.cn/index.html) **| Zhejiang University - 周晓巍** [GitHub Link](https://github.com/zju3dv)
@@ -166,6 +168,7 @@ My personal list of important content related to Lifelong SLAM and Robotics. Fee
 * [MARS Lab](http://group.iiis.tsinghua.edu.cn/~marslab/#/) **| Tsinghua University - 赵行** [GitHub Link](https://github.com/tsinghua-mars-lab)
 * [HKUST Aerial Robotics Group](https://uav.hkust.edu.hk/) **| the Hong Kong University of Science and Technology - Shaojie Shen (沈劭劼)** [GitHub Link](https://github.com/HKUST-Aerial-Robotics)
 * [RAPID Laboratory](http://lab.sysu-robotics.com/index.html) **| Sun Yat-sen University - 成慧** [GitHub Link](https://github.com/SYSU-RoboticsLab)
+* [MetaSLAM](https://metaslam.github.io/) **| City University of Hong Kong - 殷鹏** [GitHub Link](https://github.com/MetaSLAM)
 
 
 
@@ -179,7 +182,6 @@ My personal list of important content related to Lifelong SLAM and Robotics. Fee
 * [IEEE-RAS International Conference on Humanoid Robots (Humanoids)](http://ieeexplore.ieee.org/servlet/opac?punumber=1002042)
 * [International Symposium of Robotic Research (ISRR)](http://ifrr.org/isrr.php)
 * [International Symposium of Experimental Robotics (ISER)](http://ifrr.org/iser.php)
-* [Robotica](http://www.ieee-ras.org/conferences-workshops/technically-co-sponsored/robotica)
 * [Robotics: Science and Systems Conference (RSS)](http://www.roboticsconference.org/)
 * [The International Workshop on the Algorithmic Foundations of Robotics (WAFR)](http://www.wafr.org/) 
 
