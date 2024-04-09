@@ -1,6 +1,6 @@
 # Awesome_Lifelong_SLAM [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-My personal list of important content related to Lifelong SLAM and Robotics. Feel free to send me some suggestions: yuewangg@outlook.com
+My personal list of important content related to Lifelong SLAM and Robotics.
 
 ### Table of Contents
 * **[Related survey papers](#related-survey-papers)**<br>
